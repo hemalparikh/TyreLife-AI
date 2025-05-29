@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background Image -->
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg4" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:background="#80000000">
+
+            <!-- Question 1 -->
+            <TextView
+                android:paddingTop="0dp"
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="City and State:"
+
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter city/state"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#66FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Vehicle Type :"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter vehicle type"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#66FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Axle Configuration : "
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter axle configuration"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#66FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Primary Usage of Vehicle : "
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter primary usage"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#66FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="15dp"
+        android:text="Predict" />
+    <TextView
+        android:id="@+id/responseText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:background="#80000000"
+        android:padding="8dp"
+        android:text="Recommendation will appear here..." />
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background Image -->
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg5" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="#80000000">
+
+            <!-- City and State Input -->
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="City and State:"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter city/state"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#66FFFFFF" />
+
+            <!-- Image Upload Button -->
+            <Button
+                android:id="@+id/selectImagesButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload Tyre Images" />
+
+            <!-- Image Preview Layout -->
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="horizontal"
+                android:fillViewport="true">
+
+                <LinearLayout
+                    android:id="@+id/imagePreviewLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" />
+            </HorizontalScrollView>
+
+            <!-- Analyze Button -->
+            <Button
+                android:id="@+id/analyzeButton"
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Analyze" />
+
+            <!-- Result Display -->
+            <TextView
+                android:id="@+id/resultTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Results will be displayed here..."
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
