@@ -1,7 +1,20 @@
+![Platform](https://img.shields.io/badge/platform-Android-blue)
+![Tech](https://img.shields.io/badge/AI-GeminiAPI-red)
+![Status](https://img.shields.io/badge/status-Prototype-green)
 # HackVortex 2025
 # Domain: AI/ML
+## 📚 Table of Contents
+- [Problem Statement](#problem-statement)
+- [Approach & Solution](#approach--solution)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Screenshots](#screenshots)
+- [Demo Video](#demo-video)
+- [Run Instructions](#run-instructions)
+- [Team](#team-name--spartan-techies)
 # Problem Statement: Revolutionizing Road Safety and Maintenance: An AI-Powered Solution for Predicting Tyre Wear and Recommending Optimal Replacements
 # Project : TyreLife AI: Enhancing Road Safety through Predictive Maintenance
+🚗 TyreLife AI is a mobile-first, AI-powered solution that predicts tyre wear and provides smart recommendations for replacements — helping prevent road accidents and reducing maintenance costs.
 # Approach & Solution : 
 🔍 Approach:
 Our approach is to bridge the gap between traditional tyre inspection methods and modern, accessible AI-driven solutions. We aim to eliminate the need for costly sensors and provide a data-driven, user-centric experience by leveraging image processing and machine learning.
@@ -190,7 +203,7 @@ Image Analysis & ML Logic: Gemini API
 
 ![image](https://github.com/user-attachments/assets/83ed16b7-a024-41fb-8949-b97ba40c2edb)
 
-2. Tyre Predictor :
+3. Tyre Predictor :
 
 *Before :
 
@@ -203,7 +216,7 @@ Image Analysis & ML Logic: Gemini API
 
 3. Demo Video : 
 
-https://drive.google.com/file/d/1DERk1uklzRzEwksEA1nAarscrVFxkxYF/view?usp=drivesdk
+[Demo Video](https://drive.google.com/file/d/1DERk1uklzRzEwksEA1nAarscrVFxkxYF/view?usp=drivesdk)
 
 # Run Instructions :
 
@@ -211,7 +224,7 @@ https://drive.google.com/file/d/1DERk1uklzRzEwksEA1nAarscrVFxkxYF/view?usp=drive
 
 Download the latest APK from the link below:
 
-👉 Download APK : https://www.mediafire.com/file/3c81clpddppx9pj/app-debug.apk/file
+👉 [Download APK](https://www.mediafire.com/file/3c81clpddppx9pj/app-debug.apk/file)
 
 Transfer the APK file to your Android device.
 
@@ -221,15 +234,9 @@ Launch the app and start analyzing or predicting tyre health!
 
 🧑‍💻 Option 2: Build from Source (Using Android Studio)
 
-Clone the repository
-
-Open the project in Android Studio.
-
-Inside the project gradle, create a new file named:
-
-secrets.properties
-
-Add your Gemini API key inside the file like this:
+**Step 1:** Clone the repository  
+**Step 2:** Open the project in Android Studio  
+**Step 3:** Create `secrets.properties` and add your Gemini API key  
 
 apikey = "your_gemini_api_key_here"
 
