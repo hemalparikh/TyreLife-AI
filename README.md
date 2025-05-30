@@ -1,6 +1,7 @@
 ![Platform](https://img.shields.io/badge/platform-Android-blue)
 ![Tech](https://img.shields.io/badge/AI-GeminiAPI-red)
 ![Status](https://img.shields.io/badge/status-Prototype-green)
+🔗 [GitHub Repository](https://github.com/hemalparikh/TyreLife-AI)
 # HackVortex 2025
 # Domain: AI/ML
 ## 📚 Table of Contents
@@ -185,7 +186,7 @@ Device Support: Virtual and physical Android devices
 
 🔹 Backend / Logic Layer
 
-Image Analysis & ML Logic: Gemini API
+Image Analysis & ML Logic: Google Gemini API (via Gemini Pro endpoint)
 
 #  Screenshots :
 
@@ -214,7 +215,7 @@ Image Analysis & ML Logic: Gemini API
 
 ![image](https://github.com/user-attachments/assets/958efec1-1450-4c6f-a1b6-52f0051f8156)
 
-3. Demo Video : 
+4. Demo Video : 
 
 [Demo Video](https://drive.google.com/file/d/1DERk1uklzRzEwksEA1nAarscrVFxkxYF/view?usp=drivesdk)
 
