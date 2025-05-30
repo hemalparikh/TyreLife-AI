@@ -188,4 +188,15 @@ Image Analysis & ML Logic: Gemini API
 
 * After : 
 
+![image](https://github.com/user-attachments/assets/83ed16b7-a024-41fb-8949-b97ba40c2edb)
 
+2. Tyre Predictor :
+
+*Before :
+
+![image](https://github.com/user-attachments/assets/94bbbf9d-44a6-4f98-a9a5-6144d77baed1)
+
+
+*After:
+
+![image](https://github.com/user-attachments/assets/958efec1-1450-4c6f-a1b6-52f0051f8156)
