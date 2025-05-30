@@ -174,3 +174,18 @@ Device Support: Virtual and physical Android devices
 
 Image Analysis & ML Logic: Gemini API
 
+#  Screenshots :
+
+1. Home Screen :
+
+![image](https://github.com/user-attachments/assets/a46b302e-913b-4e6a-b030-3ba2679f0007)
+
+2. Tyre Analyzer : 
+
+* Before :
+
+![image](https://github.com/user-attachments/assets/28a70a90-ca47-4968-b342-68a21ac7f5c7)
+
+* After : 
+
+
