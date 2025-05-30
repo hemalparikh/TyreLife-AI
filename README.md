@@ -85,6 +85,7 @@ Suitability rating
 
 
 📸 1. Image-Based Tyre Wear Detection
+
 Upload 1 to 8 photos of your vehicle’s tyres using a mobile camera.
 
 AI detects:
@@ -96,6 +97,7 @@ Surface cracks and abnormalities
 Signs of under/over-inflation or ageing
 
 🧠 2. AI-Powered Tyre Health Prediction
+
 Predicts tyre condition: Good / Average / Poor
 
 Estimates:
@@ -105,6 +107,7 @@ Safe remaining days of use
 Urgency for maintenance or replacement
 
 🎯 3. Personalized Tyre Recommendations
+
 Input key details:
 
 Vehicle type (Car/Bike/Truck)
@@ -124,6 +127,7 @@ Compatibility
 Performance rating based on input conditions
 
 💸 4. Hardware-Free, Cost-Effective Solution
+
 No need for external sensors or devices.
 
 Fully software-based using mobile camera and AI models.
@@ -131,6 +135,7 @@ Fully software-based using mobile camera and AI models.
 Accessible to individual drivers and fleet managers alike.
 
 📲 5. User-Friendly Mobile Interface
+
 Simple, clean Android app interface.
 
 Easy navigation:
@@ -142,11 +147,13 @@ Tyre Predictor for product suggestions
 Quick results within seconds of image upload.
 
 🔄 6. Real-Time & Offline Capabilities
+
 Works in real-time (optional backend or on-device inference).
 
 Can be designed to work partially offline (edge device friendly).
 
 🛣️ 7. Adapted for Indian Road and Weather Conditions
+
 Takes into account city-specific infrastructure and climate for better accuracy.
 
 Helps users from all regions make informed tyre decisions.
