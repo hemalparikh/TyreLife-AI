@@ -150,3 +150,20 @@ Can be designed to work partially offline (edge device friendly).
 Takes into account city-specific infrastructure and climate for better accuracy.
 
 Helps users from all regions make informed tyre decisions.
+
+# Tech Stack :
+
+🔹 Frontend (Mobile App)
+
+Language: Java
+
+Platform: Android Studio
+
+UI Components: XML Layouts
+
+Device Support: Virtual and physical Android devices
+
+🔹 Backend / Logic Layer
+
+Image Analysis & ML Logic: Gemini API
+
