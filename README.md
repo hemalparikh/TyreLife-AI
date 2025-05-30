@@ -201,13 +201,17 @@ Image Analysis & ML Logic: Gemini API
 
 ![image](https://github.com/user-attachments/assets/958efec1-1450-4c6f-a1b6-52f0051f8156)
 
+3. Demo Video : 
+
+https://drive.google.com/file/d/1DERk1uklzRzEwksEA1nAarscrVFxkxYF/view?usp=drivesdk
+
 # Run Instructions :
 
 ✅ Option 1: Install APK Directly
 
 Download the latest APK from the link below:
 
-👉 Download APK : 
+👉 Download APK : https://www.mediafire.com/file/3c81clpddppx9pj/app-debug.apk/file
 
 Transfer the APK file to your Android device.
 
