@@ -200,3 +200,40 @@ Image Analysis & ML Logic: Gemini API
 *After:
 
 ![image](https://github.com/user-attachments/assets/958efec1-1450-4c6f-a1b6-52f0051f8156)
+
+# Run Instructions :
+
+✅ Option 1: Install APK Directly
+
+Download the latest APK from the link below:
+
+👉 Download APK : 
+
+Transfer the APK file to your Android device.
+
+Open the file and install it (you may need to enable “Install from unknown sources” in your device settings).
+
+Launch the app and start analyzing or predicting tyre health!
+
+🧑‍💻 Option 2: Build from Source (Using Android Studio)
+
+Clone the repository
+
+Open the project in Android Studio.
+
+Inside the project gradle, create a new file named:
+
+secrets.properties
+
+Add your Gemini API key inside the file like this:
+
+apikey = "your_gemini_api_key_here"
+
+Sync the Gradle files (Android Studio will prompt this automatically).
+
+Connect an Android device or start an emulator.
+
+Click Run ▶️ to launch the app!
+
+# Team Name : Spartan Techies
+# Teammates : Priyanka Chaudhari, Hemal Parikh, Utkarsha Sonawane
