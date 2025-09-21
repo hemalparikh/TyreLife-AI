@@ -61,6 +61,3 @@ Sync the Gradle files (Android Studio will prompt this automatically).
 Connect an Android device or start an emulator.
 
 Click Run ▶️ to launch the app!
-
-# Team Name : Spartan Techies
-# Teammates : Priyanka Chaudhari, Hemal Parikh, Utkarsha Sonawane
