@@ -34,6 +34,10 @@
 
 [Demo Video](https://drive.google.com/file/d/1DERk1uklzRzEwksEA1nAarscrVFxkxYF/view?usp=drivesdk)
 
+<img width="689" height="1280" alt="image" src="https://github.com/user-attachments/assets/21a18482-a271-45ce-b0ee-0057b0d75899" />
+<img width="688" height="1280" alt="image" src="https://github.com/user-attachments/assets/38255caf-f53d-4b3d-8237-aab9d5b3632d" />
+
+
 # Run Instructions :
 
 ✅ Option 1: Install APK Directly
